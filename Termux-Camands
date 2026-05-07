@@ -1,0 +1,42 @@
+pkg update
+pkg upgrade
+pkg install python
+pkg install git
+pkg install nano
+pkg install vim
+pkg install wget
+pkg install curl
+pkg install unzip
+pkg install zip
+pkg install openssl
+pkg install clang
+pkg install make
+pkg install cmake
+pkg install nodejs
+pkg install php
+pkg install ruby
+pkg install java
+
+
+pip install requests
+pip install flask
+pip install telebot
+pip install python-telegram-bot
+pip install rich
+pip install pyfiglet
+pip install bs4
+pip install lxml
+pip install pycryptodome
+
+
+pkg install python
+pip install --upgrade pip setuptools wheel
+pip install pycryptodome
+pip install protobuf
+pip install google
+
+pip install virtualenv
+virtualenv venv
+source venv/bin/activate
+deactivate
+
